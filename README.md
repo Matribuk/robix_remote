@@ -1,5 +1,4 @@
-# Mr Matribuk present :
-## Cloner ChatGPT sur un site local avec OpenAI API
+# Cloner ChatGPT sur un site local avec OpenAI API
 
 Ce projet permet de cloner ChatGPT, un modèle de traitement du langage naturel, sur un site web local en utilisant l'API d'OpenAI. Le site web permettra aux utilisateurs de discuter avec ChatGPT sur divers sujets.
 
