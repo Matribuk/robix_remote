@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="container">
       <input type="text" value={userInput} onChange={handleInputChange} />
-      <button className="button" onClick={handleButtonClick}>ENVOIE</button>
+      <button className="button" onClick={handleButtonClick}>SEND</button>
       <h1>API ROBIX : {message}</h1>
     </div>
   );

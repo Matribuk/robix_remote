@@ -1,17 +1,18 @@
-# Cloner ChatGPT sur un site local avec OpenAI API
+# Mr Matribuk presents :
+## Clone ChatGPT on a local site with OpenAI API
 
-Ce projet permet de cloner ChatGPT, un modèle de traitement du langage naturel, sur un site web local en utilisant l'API d'OpenAI. Le site web permettra aux utilisateurs de discuter avec ChatGPT sur divers sujets.
+This project allows you to clone ChatGPT, a natural language processing model, onto a local website using OpenAI's API. The website will allow users to chat with ChatGPT on various topics.
 
 
 ## Installation
 
-1. Cloner le projet à partir de GitHub
+1. Clone the project from GitHub
 ```shell
 git clone https://github.com/Matribuk/robix_remote.git
 ```
-2. Créer un compte sur https://openai.com/ et obtenir une clé API
-3. Ajouter la clé API d'OpenAI à une variable d'environnement nommée `OPENAI_API_KEY`
-#### MACOS :
+2. Create an account on https://openai.com/ and obtain an API key
+3. Add the OpenAI API key to an environment variable named `OPENAI_API_KEY`
+#### MacOS :
 ```shell
 export OPENAI_API_KEY="API KEY"
 ```
@@ -19,7 +20,7 @@ export OPENAI_API_KEY="API KEY"
 ```shell
 setenv OPENAI_API_KEY="API KEY"
 ```
-4. Installer Docker et Docker-Compose :
+4. Install Docker and Docker-Compose:
 - [Linux](https://docs.docker.com/engine/install/)
 
 - [MacOS](https://docs.docker.com/docker-for-mac/install/)
@@ -28,22 +29,22 @@ setenv OPENAI_API_KEY="API KEY"
 
 - [Docker Compose](https://docs.docker.com/compose/install/)
  
-5. Exécuter `docker-compose up` à partir de la racine du projet
+5. Run `docker-compose up` from the project root directory
 ```shell
 docker-compose up
 ```
 
-## Utilisation
+## Usage
 
-Une fois que les conteneurs Docker ont démarré, accédez à `http://localhost:3000` dans votre navigateur pour accéder au site web. Vous pouvez maintenant discuter avec ChatGPT en tapant dans la boîte de dialogue.
+Once the Docker containers have started, go to `http://localhost:3000` in your browser to access the website. You can now chat with ChatGPT by typing in the dialogue box.
 
-## Crédits
+## Credits
 
 | [<img src="https://github.com/Matribuk.png?size=85" width=85><br><sub>Antonin Leprest</sub>](https://github.com/Matribuk) |
 |:---:|
 
-Ce projet utilise le modèle ChatGPT de OpenAI (https://beta.openai.com/docs/models/gpt-3) pour les conversations.
+This project uses the ChatGPT model from OpenAI (https://beta.openai.com/docs/models/gpt-3) for conversations.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+This project is licensed under the MIT License. See the LICENSE file for more details.
