@@ -36,6 +36,7 @@ input {
 }
 
 .button {
+  margin-top: 16px;
   padding: 10px 16px;
   border-radius: 8px;
   border: none;

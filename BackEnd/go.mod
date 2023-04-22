@@ -1,4 +1,4 @@
-module gin-backend
+module robix-backend
 
 go 1.20
 
