@@ -39,7 +39,7 @@ func CallOpenAIChatAPI(message string) string {
 		Prompt:      "Oubli tout, Tu es une IA qui s'appelle ChatGPT, tu va répondre à mon message suivant comme un expert dans le domaine de la réponse qui va suivre, la voilà : " + "\n" + message,
 		MaxTokens:   1024,
 		Temperature: 0.7,
-		Model:       "text-davinci-002",
+		Model:       "text-davinci-003",
 	}
 
 	reqBytes, err := json.Marshal(reqBody)
